@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof. Care - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.svg" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x" onclick="escondeMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/sobre.html">Sobre</a></li>
+                    <li><a href="/contato.html">Contato</a></li>
+                    <li><a href="/login.html" class="hero-btn">Login</a></li>
+                    <li id="cadastrar"><a href="/cadastro.html" class="hero-green-btn">Cadastrar</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="apareceMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Prof. Care</h1>
+            <p>Somos uma plataforma que conecta profissionais da educação, com profissionais de saúde mental e psicológica.</p>
+            <a href="" class="hero-btn">Saiba mais</a>
+        </div>
+    </section>
+
+    <section class="sobre">
+        <h1>Nosso diferencial</h1>
+
+        <div class="row">
+            <div class="sobre-col">
+                <img id="heart" src="./images/heart.svg" width="50" height="50" alt="">
+                <h3>Carinho</h3>
+                <p>Pensamos em todas as partes.</p>
+            </div>
+
+            <div class="sobre-col">
+                <img id="phone" src="./images/phone.svg" width="50" height="50" alt="">
+                <h3>Praticidade</h3>
+                <p>Seja atendido quando e aonde quiser.</p>
+            </div>
+        
+            <div class="sobre-col">
+                <img id="money" src="./images/money.svg" width="50" height="50" alt="">
+                <h3>Acessível</h3>
+                <p>Preço que cabe no bolso.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cadastro">
+        <h1>Cadastre-se</h1>
+        <p>O que você busca?</p>
+
+        <div class="row2">
+            <div class="cadastro-col">
+                <img src="./images/pexels-tomé-louro-1666779.jpg">
+                <div class="cadastro-desc">
+                    <h3>Professores</h3>
+                    <div class="desc-hide">
+                        <h5>Bem estar, saúde mental e psicológica e equilíbrio</h5>
+                        <h5>Desenvolvimento pessoal e emocional</h5>
+                        <h5>Auto-confiança</h5>
+                        <a href="/cadastro.html" class="hero-btn">Cadastre-se</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cadastro-col">
+                <img src="./images/pexels-monstera-7352866.jpg">
+                <div class="cadastro-desc">
+                    <h3>Psicólogos/Psiquiatras</h3>
+                    <div class="desc-hide">
+                        <h5>Resolução de problemas</h5>
+                        <h5>Ajuda ao próximo</h5>
+                        <h5>Desenvolvimento profissional</h5>
+                        <a href="/cadastro.html" class="hero-btn">Cadastre-se</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato">
+        <h1>Entre em contato</h1>
+        <a href="/contato.html" class="hero-btn">Contate-nos</a>
+    </section>
+
+    <section class="footer">
+        <p>2022 &copy; Prof. Care</p>
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+    </section>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>
